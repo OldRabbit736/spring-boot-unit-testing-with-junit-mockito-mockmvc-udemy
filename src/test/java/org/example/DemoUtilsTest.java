@@ -8,6 +8,8 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 //@DisplayNameGeneration(DisplayNameGenerator.Simple.class)
+//@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@TestMethodOrder(MethodOrderer.DisplayName.class)
 class DemoUtilsTest {
 
     DemoUtils demoUtils;
@@ -17,8 +19,15 @@ class DemoUtilsTest {
         demoUtils = new DemoUtils();
     }
 
+    @DisplayName("Multiply")
+    @Test
+    void testMultiply() {
+        assertEquals(12, demoUtils.multiply(4, 3), "4*3 must be 12");
+    }
+
     @Test
     @DisplayName("Equals and Not Equals")
+    @Order(-1)
     void testEqualsAndNotEquals() {
 
         assertEquals(6, demoUtils.add(2, 4), "2 + 4 must be 6");
