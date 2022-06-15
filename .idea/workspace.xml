@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b382ce8f-e2f7-4bde-a902-b6d945624972" name="변경" comment="Complete lecture 31 ~ 34">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b382ce8f-e2f7-4bde-a902-b6d945624972" name="변경" comment="Complete lecture 31 ~ 34" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,17 +58,32 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConditionalTest">
+  <component name="RunManager" selected="JUnit.DemoUtilsTest">
+    <configuration name="ConditionalTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.junitdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.junitdemo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junitdemo.ConditionalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConditionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.junitdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ConditionalTest" />
+      <option name="PACKAGE_NAME" value="org.example.junitdemo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junitdemo.ConditionalTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea -DLUV2CODE_SYS_PROP=CI_CD_DEPLOY" />
@@ -85,12 +98,12 @@
       <module name="testing-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.junitdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoUtilsTest" />
+      <option name="PACKAGE_NAME" value="org.example.junitdemo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junitdemo.DemoUtilsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,29 +113,13 @@
       <module name="testing-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.junitdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoUtilsTest" />
+      <option name="PACKAGE_NAME" value="org.example.junitdemo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junitdemo.DemoUtilsTest" />
       <option name="METHOD_NAME" value="testEqualsAndNotEquals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoUtilsTest.testNullAndNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testNullAndNotNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,12 +129,12 @@
       <module name="testing-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.junitdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.DemoUtilsTest" />
+      <option name="PACKAGE_NAME" value="org.example.junitdemo" />
+      <option name="MAIN_CLASS_NAME" value="org.example.junitdemo.DemoUtilsTest" />
       <option name="METHOD_NAME" value="testSameAndNotSame" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -146,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConditionalTest" />
         <item itemvalue="JUnit.DemoUtilsTest" />
+        <item itemvalue="JUnit.ConditionalTest (1)" />
+        <item itemvalue="JUnit.ConditionalTest" />
         <item itemvalue="JUnit.DemoUtilsTest.testSameAndNotSame" />
         <item itemvalue="JUnit.DemoUtilsTest.testEqualsAndNotEquals" />
-        <item itemvalue="JUnit.DemoUtilsTest.testNullAndNotNull" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655298500529</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Complete lecture 31 ~ 34">
+      <created>1655298637271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655298637271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
