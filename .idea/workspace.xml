@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b382ce8f-e2f7-4bde-a902-b6d945624972" name="변경" comment="refactoring before tdd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tdd/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tdd/FizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tdd/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tdd/FizzBuzzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest.testForNotDivisibleByThreeOrFive">
     <configuration name="ConditionalTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing-code" />
       <extension name="coverage">
@@ -81,26 +80,6 @@
       <option name="PACKAGE_NAME" value="org.example.junitdemo" />
       <option name="MAIN_CLASS_NAME" value="org.example.junitdemo.ConditionalTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConditionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.junitdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="org.example.junitdemo.ConditionalTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -DLUV2CODE_SYS_PROP=CI_CD_DEPLOY" />
-      <envs>
-        <env name="LUV2CODE_ENV" value="DEV" />
-      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,18 +99,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoUtilsTest.testSameAndNotSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing-code" />
+    <configuration name="FizzBuzzTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-unit-testing-with-junit-mockito-mockmvc-udemy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.junitdemo.*" />
+          <option name="PATTERN" value="org.example.tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.junitdemo" />
-      <option name="MAIN_CLASS_NAME" value="org.example.junitdemo.DemoUtilsTest" />
-      <option name="METHOD_NAME" value="testSameAndNotSame" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.example.tdd" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tdd.FizzBuzzTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,13 +129,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzTest.testForNotDivisibleByThreeOrFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-unit-testing-with-junit-mockito-mockmvc-udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tdd" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tdd.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testForNotDivisibleByThreeOrFive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest.testForNotDivisibleByThreeOrFive" />
+        <item itemvalue="JUnit.FizzBuzzTest (1)" />
         <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.DemoUtilsTest" />
         <item itemvalue="JUnit.ConditionalTest (1)" />
-        <item itemvalue="JUnit.ConditionalTest" />
-        <item itemvalue="JUnit.DemoUtilsTest.testSameAndNotSame" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +167,8 @@
       <workItem from="1654139984303" duration="3154000" />
       <workItem from="1654154423515" duration="13788000" />
       <workItem from="1654825362213" duration="2160000" />
+      <workItem from="1658117545005" duration="763000" />
+      <workItem from="1658386091710" duration="277000" />
     </task>
     <task id="LOCAL-00001" summary="Complete lecture 19 (Throws and Timeout)">
       <created>1654229428994</created>
