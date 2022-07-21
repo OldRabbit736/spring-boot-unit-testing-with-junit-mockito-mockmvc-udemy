@@ -4,6 +4,7 @@ import com.luv2code.component.MvcTestingExampleApplication;
 import com.luv2code.component.models.CollegeStudent;
 import com.luv2code.component.models.StudentGrades;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -12,13 +13,16 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+
 // main과 test의 패키지 명이 다를 때 SpringBootApplication 클래스를 얄려줘야 한다.
 @SpringBootTest(classes = MvcTestingExampleApplication.class)
 public class ApplicationExampleTest {
 
     private static int count = 0;
 
-    // resources/application.properties 에서 값 가져오기
+    // resources/application.properties 값 가져오기
     @Value(("${info.app.name}"))
     private String appInfo;
 
@@ -49,7 +53,19 @@ public class ApplicationExampleTest {
         student.setStudentGrades(studentGrades);
     }
 
+    @DisplayName("Add grade results for student grades")
     @Test
-    void basicTest() {
+    void addGradeResultsForStudentGrades() {
+        assertEquals(353.25, studentGrades.addGradeResultsForSingleClass(
+                student.getStudentGrades().getMathGradeResults()
+        ));
+    }
+
+    @DisplayName("Add grade results for student grades not equal")
+    @Test
+    void addGradeResultsForStudentGradesAssertNotEquals() {
+        assertNotEquals(0, studentGrades.addGradeResultsForSingleClass(
+                student.getStudentGrades().getMathGradeResults()
+        ));
     }
 }
