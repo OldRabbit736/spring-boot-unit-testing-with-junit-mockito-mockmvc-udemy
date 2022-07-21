@@ -1,0 +1,5 @@
+What does @SpringBootTest do?
+- Loads the application context
+- Support for Spring dependency injection
+- You can access data from Spring application.properties
+- ...
