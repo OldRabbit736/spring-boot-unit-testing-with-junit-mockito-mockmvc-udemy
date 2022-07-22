@@ -1,0 +1,14 @@
+Instead of using Mockito: @Mock and @InjectMocks
+Use Spring Boot support: @MockBean and @Autowired
+
+@MockBean
+- includes Mockito @Mock functionality
+- also adds mock bean to Spring ApplicationContext
+    - if existing bean is there, the mock bean will replace it
+- thus making the mock bean available for injection with @Autowired
+
+
+--> Use Spring Boot @MockBean when you need to inject mocks AND inject regular beans from app context
+
+--> 그러나 오히려, @SpringBootTest 사용을 없애서 테스트를 더욱 깔끔하게 유지하고 빠른 실행 속도를 원한다면
+    @Mock, @InjectMocks 사용해야 한다.
