@@ -9,6 +9,7 @@ Use Spring Boot support: @MockBean and @Autowired
 
 
 --> Use Spring Boot @MockBean when you need to inject mocks AND inject regular beans from app context
+    @InjectMocks 는 @Mock 으로 표시된 디펜던시만 주입해 주기 때문에, 다른 디펜던시는 해결해 주지 못한다.
 
 --> 그러나 오히려, @SpringBootTest 사용을 없애서 테스트를 더욱 깔끔하게 유지하고 빠른 실행 속도를 원한다면
     @Mock, @InjectMocks 사용해야 한다.
